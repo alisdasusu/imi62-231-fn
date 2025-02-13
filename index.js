@@ -6,16 +6,16 @@ const cors = require('cors')
 const bodyParser = require('body-parser');
 const hostname = '127.0.0.1';
 const fs = require('fs');
-const port = 3000;
+const port = 3005;
 
 const { readFileSync } = require("fs");
 var path = require("path");
 let cer_part = path.join(process.cwd(), 'isrgrootx1.pem');
 
 const connection = mysql.createConnection({
-    host: 'gateway01.ap-southeast-1.prod.aws.tidbcloud.com',
-    user: '2UWUobCsHWgKtdA.root',
-    password:"0BXaKid8oJAev60l",
+    host: 'gateway01.us-west-2.prod.aws.tidbcloud.com',
+    user: '3tq8XXQ1NtCrVTi.root',
+    password:"kPNhJs9O4umM0T1S",
     database: 'imi_his_db',
     port:4000,
     ssl:{
