@@ -6,7 +6,7 @@ const cors = require('cors')
 const bodyParser = require('body-parser');
 const hostname = '127.0.0.1';
 const fs = require('fs');
-const port = 3005;
+const port = 3000;
 
 const { readFileSync } = require("fs");
 var path = require("path");
